@@ -71,7 +71,7 @@ input, textarea, select{
 .container{
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 /* flexbox and grid */
@@ -204,7 +204,7 @@ input, textarea, select{
   overflow-x: hidden;
 }
 .section-wrapper{
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .sc-title{
   text-transform: uppercase;
@@ -223,7 +223,7 @@ input, textarea, select{
     left: 0;
     height: 4px;
     width: 80px;
-    background-color: $clr-orange;
+    background-color: $clr-green;
   }
 }
 

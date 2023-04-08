@@ -24,7 +24,7 @@
 .header{
     .header-content{
         height: 400px;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../../assets/images/header_image.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../../assets/images/header_mage.jpg") center/cover no-repeat;
     }
     .header-title{
         margin-top: 2.4rem;
@@ -34,17 +34,17 @@
 .search-form{
     .form-control-input{
         box-shadow: 0 4px 10px rgb(0 0 0 / 12%), 0 0 1px rgb(0 0 0 / 5%) inset;
-        min-width: 300px;
+        min-width: 400px;
         font-size: 16px;
-        height: 55px;
-        padding: 0px 3.2rem;
-        border-radius: 2.8rem!important;
+        height: 40px;
+        padding: 0px 3rem;
+        border-radius: 1.8rem !important;
         margin-right: 1.2rem;
     }
     .form-submit-btn{
-        width: 55px;
-        height: 55px;
-        background-color: $clr-orange;
+        width: 40px;
+        height: 40px;
+        background-color: $clr-green;
         border-radius: 50%;
         position: relative;
         transition: $transition;
@@ -68,7 +68,7 @@
         &:hover{
             .btn-icon{
                 transform: scale(0.9);
-                color: $clr-orange;
+                color: $clr-green;
             }
             background: $clr-white;
         }
